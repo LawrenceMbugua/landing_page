@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    background-color: rgb(224, 224, 224);
+}
+header {
+   display: block;
+}
+
+.top {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content:space-between;
+    background-color: rgb(224, 224, 224);
+    top: 0px;
+    position: fixed;
+    
+}
+
+
+
+
+.top > nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+.title {
+
+    margin: 0 auto;
+    max-width: fit-content;
+  
+}
+
+.title > form {
+   
+    max-width: fit-content;
+    margin: 0 auto;
+   
+}
+
+
+.title > form > input, button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.title > form > input {
+    width: 250px
+    
+}
+
+.title > form > button {
+    background: gold;
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.features {
+    margin: 0 auto;
+    max-width: fit-content;
+    display: block;
+    
+}
+
+.container {
+    display: inline-flex;
+   
+    justify-content: space-between;
+    margin:  auto;
+    width: fit-content;
+} 
+
+
+
+
+.how_it_works {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+.pricing {
+  
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+
+.pricing > div{
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    margin: 50px;
+}    
+
+
+
+.pricing > div > form {
+    margin-bottom: 10px ;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.pricing > div > form > button {
+   background-color: gold;
+}
+
+
+
+.pricing > div > h3{
+   background: rgb(173, 169, 169);
+   padding: 10px;
+   text-align: center;
+   margin-top: 0%;
+}    
+
+svg {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    background-color: rgb(201, 198, 198);
+}
+
+im
+
+
+footer > div > a {
+   text-decoration: none;
+   color: black;
+   padding: 20px;
+}
